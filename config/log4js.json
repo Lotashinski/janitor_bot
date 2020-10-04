@@ -1,0 +1,16 @@
+{
+  "appenders": {
+    "root": {
+      "type": "file",
+      "filename": "log/app.log"
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": [
+        "root"
+      ],
+      "level": "error"
+    }
+  }
+}
